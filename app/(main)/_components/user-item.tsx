@@ -31,7 +31,7 @@ export const UserItem = () => {
                 forceMount
             >
                 <div className="flex flex-col space-y-4 p-2">
-                    <p className="text-xs font-medium leading-note text-muted-foreground">
+                    <p className="text-xs font-medium leading-none text-muted-foreground">
                         {user?.emailAddresses[0].emailAddress}
                     </p>
                     <div className="flex items-center gap-x-2">
